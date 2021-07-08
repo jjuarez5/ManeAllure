@@ -31,6 +31,10 @@ p {
   color: #e76b74;
 }
 
+.text-secondary {
+  color: #e0f5e6;
+}
+
 .bg-primary {
   background-color: #e76b74;
 }
@@ -134,7 +138,12 @@ p {
 
 #about .about-text {
   margin: 1 1rem;
-  padding: 15rem 5rem;
+  padding: 5rem 5rem;
+}
+
+#about .about-text h1 {
+  margin-bottom: 7rem;
+  color: white;
 }
 
 #about p a {
