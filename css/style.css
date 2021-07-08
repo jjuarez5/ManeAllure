@@ -164,25 +164,29 @@ p {
 
 #gallery .item-1 {
   background: black url("../images/blonde.jpg") no-repeat center center/cover;
-  height: 30vh;
-  width: 20vw;
-  padding: 5px;
+  height: 40vh;
+  width: 35vw;
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
 #gallery .item-2 {
   background: url("../images/mask.jpg") no-repeat center center/cover;
-  height: 30vh;
-  width: 20vw;
-  padding: 5px;
+  height: 40vh;
+  width: 35vw;
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
 #gallery .item-3 {
   background: url("../images/sad.jpg") no-repeat center center/cover;
-  height: 30vh;
-  width: 20vw;
-  padding: 5px;
+  height: 40vh;
+  width: 35vw;
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
 #gallery .item-4 {
   background: url("../images/wave.jpg") no-repeat center center/cover;
-  height: 30vh;
-  width: 20vw;
-  padding: 5px;
+  height: 40vh;
+  width: 35vw;
+  border-radius: 3px;
+  margin-bottom: 1rem;
 }
