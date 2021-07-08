@@ -1,4 +1,4 @@
-# Welcome to the source code for [ManeAllure] 😃💇🏽‍♀️
+# Welcome to the source code for [ManeAllure] 😃 💇🏽‍♀️
 
 This is a completeley client-side website I created to showcase my wife's skills as a licensed cosmetologist. She has many years of experience, so if you're ever in the Houston area and want your hair colored,cut, or styled, book with her!
 
@@ -11,6 +11,6 @@ This is a completeley client-side website I created to showcase my wife's skills
 
 ## Technology
 
-This site was created with HTML5 and CSS3! There is a little bit of Javascript and JQuery with future plans to include more!
+This site was created with HTML5 and CSS3! There is a little bit of Javascript and JQuery with future plans to include more...
 
 [maneallure]: https://maneallure.com
