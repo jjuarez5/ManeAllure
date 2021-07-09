@@ -42,12 +42,12 @@ p {
 }
 
 .bg-light {
-  background-color: #e0f5e6;
+  background-color: white;
 }
 
 .bg-dark {
   background-color: black;
-  color: #e0f5e6;
+  color: white;
 }
 
 .bg-white {
@@ -188,7 +188,7 @@ p {
 
 #about p a {
   text-decoration: none;
-  color: white;
+  color: #e76b74;
 }
 
 #about p a:hover {
