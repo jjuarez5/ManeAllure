@@ -12,7 +12,9 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
-a {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -48,6 +50,11 @@ p {
   color: #e0f5e6;
 }
 
+.bg-white {
+  background-color: white;
+  color: black;
+}
+
 .list {
   margin: 0.5rem 0;
   list-style: none;
@@ -74,6 +81,39 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.btn {
+  display: inline-block;
+  background: #e76b74;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+.btn-dark {
+  display: inline-block;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: black;
 }
 
 /* NAVBAR */
@@ -198,4 +238,65 @@ p {
   width: 35vw;
   border-radius: 3px;
   margin-bottom: 1rem;
+}
+
+/* CONTACT */
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#contact div {
+  flex: 1;
+  text-align: center;
+}
+
+#book {
+  align-self: flex-end;
+}
+
+#contact form {
+  align-self: flex-start;
+}
+
+#notice {
+  align-self: baseline;
+}
+
+#notice button a {
+  text-decoration: none;
+}
+
+#contact label {
+  padding-top: 1rem;
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+  margin-left: 1rem;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  border: 2px black solid;
+}
+
+#contact input:hover,
+#contact textarea:hover {
+  outline: none;
+  border-color: #e76b74;
+}
+
+#contact button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer {
+  bottom: 0;
 }
