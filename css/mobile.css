@@ -71,7 +71,7 @@
 
   #contact div > input,
   #contact textarea {
-    width: 100vw;
+    width: 100%;
     margin: 0;
   }
 }
