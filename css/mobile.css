@@ -66,14 +66,12 @@
 
   #contact {
     display: block;
-    width: 95vw;
-  }
-  #contact #notice {
     width: 100vw;
   }
-  #contact input,
+
+  #contact input > div,
   #contact textarea {
-    width: 90vw;
+    width: 85vw;
     margin: 0;
   }
 }

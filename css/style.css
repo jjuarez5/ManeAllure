@@ -243,7 +243,7 @@ p {
 /* CONTACT */
 #contact {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: column;
 }
 
@@ -278,9 +278,9 @@ p {
   margin-left: 1rem;
 }
 
-#contact input,
+#contact div > input,
 #contact textarea {
-  width: 100%;
+  width: 98vw;
   margin-bottom: 1rem;
   border-radius: 3px;
   border: 2px black solid;
@@ -292,8 +292,8 @@ p {
   border-color: #e76b74;
 }
 
-#contact button {
-  margin-left: 1rem;
+#contact #input-submit,
+#contact #book-button {
   margin-bottom: 1rem;
 }
 
