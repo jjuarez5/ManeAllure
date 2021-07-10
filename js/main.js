@@ -9,17 +9,17 @@ window.addEventListener("scroll", function () {
 });
 
 // Smooth Scrolling
-$("#navbar a, .btn").on("click", function (event) {
-  if (this.hash !== "") {
-    event.preventDefault();
+// $("#navbar a, .btn").on("click", function (event) {
+//   if (this.hash !== "") {
+//     event.preventDefault();
 
-    const hash = this.hash;
+//     const hash = this.hash;
 
-    $("html, body").animate(
-      {
-        scrollTop: $(hash).offset().top - 100,
-      },
-      800
-    );
-  }
-});
+//     $("html, body").animate(
+//       {
+//         scrollTop: $(hash).offset()
+//       },
+//       800
+//     );
+//   }
+// });
