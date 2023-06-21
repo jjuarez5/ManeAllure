@@ -16,13 +16,15 @@
   #navbar #social-media {
     margin-bottom: 1.5rem;
   }
-
-  #about {
-    height: 100vh;
+  
+  #booking {
+    display: block;
+    width: 100vw;
+    height: 30vh;
   }
 
-  #about .about-img {
-    display: none;
+  #about {
+    height: 70vh;
   }
 
   #about h1 {
@@ -30,7 +32,7 @@
   }
 
   #about .about-text h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 1rem 1rem;
   }
 
@@ -40,8 +42,23 @@
     padding-bottom: 1rem;
   }
 
-  #showcase .showcase-content {
+  #showcase{
     display: block;
+    padding:0;
+    margin:0;
+  }
+
+  #showcase .showcase-img{
+    height: 40vh;
+    width: 90vw;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }
+
+  #showcase .showcase-text{
+    height: 35vh;
+    width: 100vw;
+    overflow: auto;
   }
 
   .container {
@@ -64,14 +81,11 @@
     margin-bottom: 0;
   }
 
-  #contact {
-    display: block;
-    width: 100vw;
-  }
+  
 
-  #contact div > input,
+  /* #contact div > input,
   #contact textarea {
     width: 100%;
-    margin: 0;
-  }
+    margin: 0; 
+  }*/
 }

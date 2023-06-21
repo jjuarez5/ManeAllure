@@ -53,7 +53,7 @@ p {
 }
 
 .bg-light {
-  background-color: white;
+  background-color: #d4cd81;
 }
 
 .bg-dark {
@@ -223,6 +223,10 @@ p {
        animation: fadein 5s;
   margin: 1rem;
   padding: 1rem;
+}
+
+#showcase .showcase-img img{
+  mix-blend-mode: multiply;   
 }
 
 #showcase .showcase-text{
