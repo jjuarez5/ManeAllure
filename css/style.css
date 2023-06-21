@@ -339,31 +339,45 @@ p {
 }
 
 #gallery .item-1 {
-  background: black url("../images/blonde.jpg") no-repeat center center/cover;
-  height: 40vh;
-  width: 35vw;
-  border-radius: 3px;
+  background:  url("../images/almabraids.jpg") center center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
   margin-bottom: 1rem;
 }
 #gallery .item-2 {
-  background: url("../images/mask.jpg") no-repeat center center/cover;
-  height: 40vh;
-  width: 35vw;
-  border-radius: 3px;
+  background: url("../images/male.jpg") center center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
   margin-bottom: 1rem;
 }
 #gallery .item-3 {
-  background: url("../images/sad.jpg") no-repeat center center/cover;
-  height: 40vh;
-  width: 35vw;
-  border-radius: 3px;
+  background: url("../images/female1.jpg") center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
   margin-bottom: 1rem;
 }
 #gallery .item-4 {
-  background: url("../images/wave.jpg") no-repeat center center/cover;
-  height: 40vh;
-  width: 35vw;
-  border-radius: 3px;
+  background: url("../images/female2.jpg") center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+#gallery .item-5 {
+  background: url("../images/female3.jpg") center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+#gallery .item-6 {
+  background: url("../images/female4.jpg") center/cover;
+  height: 60vh;
+  width: 30vw;
+  border-radius: 5%;
   margin-bottom: 1rem;
 }
 
