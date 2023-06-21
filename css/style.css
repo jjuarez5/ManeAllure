@@ -26,6 +26,7 @@ p {
 /* Utility Classes */
 .logo{
   font-family: 'Bilbo Swash Caps', cursive;
+  color: black;
 }
 
 .l-heading {
@@ -33,12 +34,20 @@ p {
   font-size: 4rem;
   margin-bottom: 0.75rem;
   font-family: 'Libre Caslon Display', serif;
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 3s; /* Firefox < 16 */
-   -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
-       animation: fadein 3s;
+  
 }
+
+#showcase .primary-heading {
+    line-height: 1.1;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    font-family: 'Libre Caslon Display', serif;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+   -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+  }
 
 .text-primary {
   color: #0d3d0a;
@@ -46,6 +55,10 @@ p {
 
 .text-secondary {
   color: #e0f5e6;
+}
+
+.text-dark{
+  color: black;
 }
 
 .bg-primary {
@@ -111,9 +124,26 @@ p {
   color: white;
 }
 
+.btn-light{
+  display: inline-block;
+  background: white;
+  color: #0d3d0a;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.btn-white:hover {
+  background: #0d3d0a;
+  color: black;
+}
+
 .btn-dark {
   display: inline-block;
-  background: black;
+  background: #0d3d0a;
   color: white;
   border: none;
   border-radius: 3px;
@@ -124,8 +154,8 @@ p {
 }
 
 .btn-dark:hover {
-  background: #d4cd81;
-  color: black;
+  background: white;
+  color: #0d3d0a;
 }
 
 @keyframes fadein {
@@ -175,10 +205,11 @@ p {
   display: flex;
   align-items: center;
   list-style: none;
+  font-size: larger;
 }
 
 #navbar ul li a {
-  color: white;
+  color: black;
   margin: 0 0.25rem;
   padding: 0.75rem;
 }
@@ -196,6 +227,7 @@ p {
   color: white;
   display: flex;
   justify-content: space-between;
+
 }
 
 #showcase div{
@@ -240,7 +272,11 @@ p {
 #booking{
   height: 25vh;
   text-align: center;
-  background-color: #0d3d0a;
+  background-color: #d4cd81;
+}
+
+#booking .book-text h1{
+  box-shadow: 1px 1px 3px -1px #222;
 }
 #booking #book-button {
   margin-bottom: 1rem;
@@ -251,6 +287,7 @@ p {
 #about {
   display: flex;
   height: 75vh;
+  width: 100vw;
 }
 
 #about div {
@@ -268,7 +305,8 @@ p {
 
 #about .about-text h1 {
   margin-bottom: 7rem;
-  color: white;
+  /*box-shadow: 0 4px 6px -6px #222;*/
+  box-shadow: 1px 1px 3px -1px #222;
 }
 
 #about p a {
@@ -282,7 +320,7 @@ p {
 
 /* SERVICES */
 
-#services {
+/* #services {
   display: flex;
   flex-direction: column;
 }
@@ -292,12 +330,14 @@ p {
   flex-direction: column;
   align-items: center;
   font-size: larger;
-}
+} */
 
 /* GALLERY */
-#gallery{
-  background-color: #0d3d0a;
+
+#gallery h1{
+  box-shadow: 1px 1px 3px -1px #222;
 }
+
 #gallery .item-1 {
   background: black url("../images/blonde.jpg") no-repeat center center/cover;
   height: 40vh;
@@ -343,11 +383,11 @@ p {
   align-self: flex-start;
 }
 
-#notice {
+#booking {
   align-self: baseline;
 }
 
-#notice button a {
+#booking button a {
   text-decoration: none;
 }
 
