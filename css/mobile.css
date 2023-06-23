@@ -56,9 +56,8 @@
   }
 
   #showcase .showcase-text{
-    height: 35vh;
+    height: 45vh;
     width: 100vw;
-    overflow: auto;
   }
 
   .container {
