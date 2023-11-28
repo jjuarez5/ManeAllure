@@ -82,6 +82,41 @@
     margin-bottom: 0;
     border-radius: 0%;
   }
+  #chat, #inner-chat, #userInput, #chatbox{
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+  }
+  #chat input, #chat text {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  #userInput text{
+    margin-left: 1rem;
+    width: 75vw;
+  }
+  #userInput::placeholder{
+    text-align: center; /* Horizontally center the text */
+    line-height: 80px; /* Adjust line height to vertically center */
+    padding-top: 60px;
+  }
+  #chat-button {
+    display: inline-block;
+    width: 80vw;
+  }
+  #chatbox{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vw;
+    width: 80vw;
+    flex:1;
+  }
+  #footer h3{
+    width: 100%;
+  }
+
 
   
 

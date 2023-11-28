@@ -431,6 +431,69 @@ p {
 
 #contact #input-submit,
 
+  /* Style your chat container as desired */
+  #chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vw;
+    width: 100vw;
+    font-family: 'Libre Caslon Display', serif;
+    border: 1px solid #ccc;
+    background-color: #d4cd81;
+}
+
+#chat h1{
+  box-shadow: 1px 1px 3px -1px #222;
+  width:100vw;
+}
+
+#chat input,
+#chat text {
+  margin-left: 30rem;
+  flex:1;
+  height: 5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+  border-radius: 5%;
+  border: 2px #0d3d0a solid;
+}
+
+#chat input:hover,
+#chat text:hover {
+  outline: none;
+  border-color: #e76b74;
+}
+#chat-button {
+  display: flex;
+  width: 5vw;
+}
+#inner-chat{
+  display: flex;
+    align-items: center;
+    width: 75%; /* Or adjust width as needed */
+    margin: 10rem;
+}
+#userInput {
+  flex: 1; /* Take remaining space */
+  margin-right: 10px; /* Space between input and button */
+}
+#userInput::placeholder {
+  /* Change placeholder font */
+  font-family: 'Libre Caslon Display', serif; /* Replace 'Your Font' with the desired font */
+  font-size: 25px; /* Adjust font size */
+  /* Add more styling properties as needed */
+}
+.message {
+    margin: 10px 0;
+}
+.user-message {
+    color: black;
+}
+.bot-message {
+    color: #0d3d0a;
+}
+
 
 #footer {
   bottom: 0;
