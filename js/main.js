@@ -17,7 +17,6 @@ function appendMessage(sender, message, senderClass) {
   messageElement.classList.add(senderClass);
   messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
   chatbox.appendChild(messageElement);
-  console.info(" This is the body -> ", messageElement);
 }
 
 function sendMessage() {
@@ -33,12 +32,13 @@ function sendMessage() {
     headers: {
       "Content-Type": "application/json",
     },
+    mode: "cors",
     body: JSON.stringify(userMessageObj),
   })
     .then((response) => response.text())
     .then((data) => {
       const botMessage = data || "Sorry, I don't have an answer for that.";
-      appendMessage("FAQ Bot", botMessage, "bot-message");
+      appendMessage("TheManeAllureGPT", botMessage, "bot-message");
     });
 }
 
