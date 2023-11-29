@@ -10,6 +10,8 @@ window.addEventListener("scroll", function () {
 
 const chatbox = document.getElementById("chatbox");
 const userInput = document.getElementById("userInput");
+const loader = document.getElementById("loadingConversation");
+const loadingConversation = document.querySelector(".loadingConversation");
 
 function appendMessage(sender, message, senderClass) {
   const messageElement = document.createElement("div");
@@ -21,7 +23,10 @@ function appendMessage(sender, message, senderClass) {
 
 function sendMessage() {
   const message = userInput.value;
+  chatbox.style.display = "flex";
   appendMessage("You", message, "user-message");
+  chatbox.appendChild(loader);
+  loader.style.display = "inline-flex";
   userInput.value = "";
   const userMessageObj = {
     userMessage: message,
@@ -37,6 +42,7 @@ function sendMessage() {
   })
     .then((response) => response.text())
     .then((data) => {
+      loader.style.display = "none";
       const botMessage = data || "Sorry, I don't have an answer for that.";
       appendMessage("TheManeAllureGPT", botMessage, "bot-message");
     });
