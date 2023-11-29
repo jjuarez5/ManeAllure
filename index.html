@@ -23,8 +23,8 @@
 
 <body id="home">
     <!-- Navbar -->
-    <nav id="navbar">
-        <h1 class="logo"><i class="fas fa-cut"></i><a href="#home"><span class="text-primary">TheManeAllure</span></a></h1>
+    <nav id="navbar" class="bg-dark">
+        <h1 class="logo"><i class="fas fa-cut"></i><a href="#home"><span class="text-secondary">TheManeAllure</span></a></h1>
         <ul id="social-media">
             <li><a href="https://www.facebook.com/TXALLURE/" target="blank"><i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/themaneallure/" target="blank"><i class="fab fa-instagram"></i></a>
@@ -40,20 +40,20 @@
             <!--<li><a href="#services">Services</a></li>-->
             <li><a href="#gallery">Gallery</a></li>
             <!-- <li><a href="#contact">Contact</a></li> -->
-            <li><a href="#chat">Chat Bot</a></li>
+            <li><a href="#chat">Live Assistant</a></li>
         </ul>
     </nav>
 
     <!-- Landing Page -->
-    <header id="showcase">
+    <header id="showcase" class="bg-dark">
             <div class="showcase-text">
-                <h1 class="primary-heading text-primary">Feel like your best self every time.</h1>
+                <h1 class="primary-heading text-secondary">Unlock the essence that is <u>YOU.</u></h1>
             </div>
             <div class="showcase-img"></div>
     </header>
     <section id="booking">
-        <div class="book-text bg-light text-dark" id="notice">
-            <h1 class="l-heading text-center text-primary">BOOKING</h1>
+        <div class="book-text bg-dark text-secondary" id="notice">
+            <h1 class="l-heading text-center text-secondary">BOOKING</h1>
             <h2>Notice</h2>
             <p>First time clients must book a free consultation prior to any color appointments.</p>
             <a href="https://maneallure.square.site/" target="blank">
@@ -62,9 +62,9 @@
     </section>
     <section id="about">
         <!-- <div class="about-img"></div> -->
-        <div class="about-text bg-light text-center text-primary">
-            <h1 class="l-heading text-center text-primary">ABOUT</h1>
-            <p class="lead text-dark">
+        <div class="about-text bg-dark text-center text-secondary">
+            <h1 class="l-heading text-center text-secondary">ABOUT</h1>
+            <p class="lead text-secondary">
                 Alma Palomares-Juarez is a licensed cosmetologist with over 7 years of experience.
                 Having gained her license out of Porter High School in Porter, Texas,
                 she started her career by mastering men's hair cuts. While
@@ -83,7 +83,7 @@
     <!-- SERVICES -->
 
     <!-- <section id="services">
-        <div class="bg-light">
+        <div class="bg-dark">
             <h1 class="l-heading text-center">
                 SERVICES
             </h1>
@@ -107,8 +107,8 @@
 
     <!-- GALLERY -->
     <section id="gallery">
-        <div class="bg-light">
-            <h1 class="l-heading text-center text-primary">
+        <div class="bg-dark">
+            <h1 class="l-heading text-center text-secondary">
                 GALLERY
             </h1>
             <div class="container">
@@ -138,7 +138,7 @@
                     <button type="submit" id="book-button" class="btn-dark">Book</button></a>
             </div>
             <form class="lead" name="contact-form" method="POST" data-netlify="true">
-                <h1 class="l-heading text-center"><span class="text-primary">CONTACT</span> US</h1>
+                <h1 class="l-heading text-center"><span class="text-secondary">CONTACT</span> US</h1>
 
                 <div class="form-group">
                     <label for="name">Name: </label>
@@ -162,21 +162,27 @@
 
     </section> -->
     <section>
-
-        <div id="chat" >
-            <h1 class="l-heading text-center text-primary">FAQ Bot</h1>
-            
-            <div id="inner-chat">
-                <input type="text" id="userInput" placeholder="Ask a question...">
-                <button id="chat-button" class="btn-dark" onclick="sendMessage()">Send</button>
+        <div id="chat" class="bg-dark">
+            <h1 class="l-heading text-center text-secondary">Live Assistant</h1>
+            <div class="chatContainer">
+                <div id="chatbox" >
+                    <div class="loadingConversation" id="loadingConversation">
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        </div>
+                </div> 
+                <div id="inner-chat">
+                    <input type="text" id="userInput" placeholder="Ask a question...">
+                    <button id="chat-button" class="btn-dark" onclick="sendMessage()">Send</button>
+                </div>
             </div>
-            <div id="chatbox" ></div> 
+            
         </div>
-
     </section>
     <section id="footer">
-        <div class="bg-light">
-            <h3 class="text-center text-dark">TheManeAllureLLC &copy; 2021, All Rights Reserved.</h3>
+        <div class="bg-dark">
+            <h3 class="text-center text-secondary">TheManeAllureLLC &copy; 2021, All Rights Reserved.</h3>
         </div>
     </section>
 
