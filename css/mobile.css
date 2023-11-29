@@ -114,7 +114,7 @@
     min-height: 50vh;
     width:120%;
     border-radius: 5%;
-    
+    display: none;
   }
   #footer h3{
     width: 100%;
