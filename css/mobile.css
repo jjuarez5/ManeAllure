@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
   body {
     overflow-x: hidden;
+    background-color: black;
   }
 
   #navbar {
@@ -25,6 +26,7 @@
 
   #about {
     height: 100vh;
+    background-color: black;
   }
 
   #about h1 {
@@ -39,7 +41,6 @@
   #about p {
     font-size: 1.1rem;
     text-align: justify;
-    padding-bottom: 1rem;
   }
 
   #showcase{
@@ -52,7 +53,7 @@
     height: 40vh;
     width: 90vw;
     border-radius: 50%;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   #showcase .showcase-text{
@@ -82,19 +83,21 @@
     margin-bottom: 0;
     border-radius: 0%;
   }
-  #chat, #inner-chat, #userInput, #chatbox{
+  #chat, #inner-chat, #chatbox{
     height: 80%;
     width: 100%;
     flex-direction: column;
   }
   #chat input, #chat text {
     margin-left: 0;
-    width: 80%;
+    width: 120%;
   }
-
+#userInput{
+  width: 100%;
+}
   #userInput text{
     margin-left: 1rem;
-    width: 75vw;
+    width: 120%;
   }
   #userInput::placeholder{
     text-align: center; /* Horizontally center the text */
@@ -102,21 +105,26 @@
     padding-top: 60px;
   }
   #chat-button {
-    display: inline-block;
-    width: 80vw;
+    text-align: center;
+    width: 60vw;
   }
   #chatbox{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    height: 100vw;
-    width: 80vw;
-    flex:1;
+    min-height: 50vh;
+    width:120%;
+    border-radius: 5%;
+    
   }
   #footer h3{
     width: 100%;
   }
-
+  .loadingConversation{
+    width:70%;
+  }
+.bubble{
+  width: 5%;
+}
 
   
 
