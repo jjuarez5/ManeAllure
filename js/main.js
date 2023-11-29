@@ -45,6 +45,12 @@ function sendMessage() {
       loader.style.display = "none";
       const botMessage = data || "Sorry, I don't have an answer for that.";
       appendMessage("TheManeAllureGPT", botMessage, "bot-message");
+    })
+    .catch((err) => {
+      const botMessage =
+        "Oops, something went wrong 😭, let's try again later!";
+      loader.style.display = "none";
+      appendMessage("TheManeAllureGPT", botMessage, "bot-message");
     });
 }
 
