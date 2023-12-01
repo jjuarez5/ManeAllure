@@ -50,10 +50,8 @@
   }
 
   #showcase .showcase-img{
-    height: 40vh;
-    width: 90vw;
-    border-radius: 50%;
-    margin-top: 2rem;
+    height: 55vh;
+    width: 100vw;
   }
 
   #showcase .showcase-text{

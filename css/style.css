@@ -246,14 +246,11 @@ p {
 #showcase .showcase-img{
   background: url("../images/Almabw.jpg") no-repeat;
   background-size: cover;
-  border-radius: 20%;
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 5s; /* Firefox < 16 */
    -ms-animation: fadein 5s; /* Internet Explorer */
     -o-animation: fadein 5s; /* Opera < 12.1 */
        animation: fadein 5s;
-  margin: 1rem;
-  padding: 1rem;
 }
 
 #showcase .showcase-img img{
@@ -266,6 +263,9 @@ p {
   padding: 5rem 5rem;
   display: flex;
   align-items: center;
+  background: url("../images/Alma\ Logo.png") no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 /*BOOKING*/
@@ -542,7 +542,8 @@ background: black;
 
 
 .message {
-    margin: 10px 0;
+    margin-left: 0.5rem;
+    width:75%
 }
 .user-message {
     color: black;
